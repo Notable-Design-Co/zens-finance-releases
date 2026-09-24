@@ -2,7 +2,7 @@
 
 Public download and update channel for the Zen's Finance desktop app: its installers and update manifests for Windows and macOS.
 
-**Status:** maintained · **Owner:** Alec · **Maintainer:** unassigned
+**Status:** maintained · **Owner:** Alec
 
 ## What it is and is not
 
