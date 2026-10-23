@@ -1,6 +1,6 @@
 # Status
 
-Snapshot of 2026-09-24. Rewrite it when things change; don't append.
+Snapshot of 2026-10-23. Rewrite it when things change; don't append.
 
 ## What publishes here
 
@@ -9,17 +9,19 @@ each `vX.Y.Z` tag. Nothing else should write here.
 
 ## Latest version
 
-- 1.0.1, according to the source repository's `CHANGELOG.md` (dated 2026-09-15).
-- On 2026-09-24 GitHub showed `v1.0.1` as the latest release, published 2026-09-16.
-- Check GitHub Releases for the latest published asset:
-  <https://github.com/Notable-Design-Co/zens-finance-releases/releases/latest>
+- GitHub identifies **v1.1.0** as the latest published release, published 2026-09-29 at 01:10:46 UTC (checked
+  2026-10-23): <https://github.com/Notable-Design-Co/zens-finance-releases/releases/tag/v1.1.0>.
+- Its eight assets are the Windows installer, universal macOS DMG and zip, their three blockmaps, `latest.yml`
+  and `latest-mac.yml`. No artifacts or update manifests were changed during this documentation correction.
+- Installed versions are unknown. Publication does not establish which computers have updated.
 
-## Known issue
+## Update compatibility
 
-The app still names the old address, `Notable-Developers/zens-finance-releases`, and relies on GitHub's redirect.
-The redirect works for the Windows `latest.yml` download (checked 2026-09-24). The macOS manual-update links do not
-work in the current app. Details are in `zens-finance` `docs/STATUS.md`.
+Version 1.1.0 names `Notable-Design-Co/zens-finance-releases` and allows release links under both owners. Older
+versions use the old owner's feed address and rely on GitHub's redirect. Macs running 1.0.x need to download 1.1.0
+manually once; the old macOS link issue is fixed in 1.1.0.
 
 ## Next action
 
-None here. Changes happen in `zens-finance`.
+No release action here. Source changes do not update published installers; a future release requires separate
+permission and follows `zens-finance` `docs/RELEASING.md`. Never delete a published release.
