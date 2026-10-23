@@ -1,6 +1,6 @@
 # Status
 
-Snapshot of 2026-10-23. Rewrite it when things change; don't append.
+Snapshot of 2026-10-22 (America/Los_Angeles). Rewrite it when things change; don't append.
 
 ## What publishes here
 
@@ -10,7 +10,7 @@ each `vX.Y.Z` tag. Nothing else should write here.
 ## Latest version
 
 - GitHub identifies **v1.1.0** as the latest published release, published 2026-09-29 at 01:10:46 UTC (checked
-  2026-10-23): <https://github.com/Notable-Design-Co/zens-finance-releases/releases/tag/v1.1.0>.
+  2026-10-22 Pacific / 2026-10-23 UTC): <https://github.com/Notable-Design-Co/zens-finance-releases/releases/tag/v1.1.0>.
 - Its eight assets are the Windows installer, universal macOS DMG and zip, their three blockmaps, `latest.yml`
   and `latest-mac.yml`. No artifacts or update manifests were changed during this documentation correction.
 - Installed versions are unknown. Publication does not establish which computers have updated.
