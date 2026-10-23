@@ -9,9 +9,9 @@ Public download and update channel for the Zen's Finance desktop app: its instal
 - Each GitHub Release here is one version of Zen's Finance: the Windows installer (NSIS `.exe`), the macOS universal
   DMG and zip, their `.blockmap` files, and the update manifests `latest.yml` and `latest-mac.yml`.
 - The app's updater reads this repository. The app's update settings (`electron-builder.yml`, `publish`, in the
-  source repository) point at `Notable-Developers/zens-finance-releases`. This repository now lives at
-  `Notable-Design-Co/zens-finance-releases`, and GitHub redirects the old address (checked on 2026-09-24 for the
-  `latest.yml` download).
+  source repository) point at `Notable-Design-Co/zens-finance-releases` starting in 1.1.0. Older versions name
+  `Notable-Developers/zens-finance-releases` and rely on GitHub's redirect. Macs running 1.0.x must download 1.1.0
+  manually once because those versions refuse links under the new owner.
 - Only the versioned installers and update manifests that the release workflow builds belong here. Never client
   data, statements, reports, logs, tokens or source code. This repository is public.
 - The source code is not here. It is in the private repository `zens-finance`.
